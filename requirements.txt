@@ -1,0 +1,9 @@
+numpy
+pandas
+astropy
+astroquery
+matplotlib
+ipykernel
+gaiaxpy
+trimesh
+embreex
