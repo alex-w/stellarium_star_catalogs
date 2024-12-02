@@ -1,6 +1,6 @@
 numpy
 pandas
-astropy
+astropy >= 7.0
 astroquery
 matplotlib
 ipykernel
