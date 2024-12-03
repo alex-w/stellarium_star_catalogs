@@ -52,7 +52,7 @@ Scripts and Notebooks
 Here are the scripts and notebooks in this repository, you should follow the order to run the scripts and notebooks.
 
 #. | `simbad_query_hip.py`_ - This script query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
-#. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source id.
+#. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
 
 .. _simbad_query_hip.py: simbad_query_hip.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
