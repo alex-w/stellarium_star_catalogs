@@ -46,6 +46,8 @@ To generate synthetic photometry (mainly `B-V` color for visual purposes) from G
    | To do this programmatically with 8 CPU cores, you can run ``ls ./XpContinuousMeanSpectrum_*.csv | xargs -n 1 -P 8 -I {} sh -c 'python gaiaxpy_phot.py {} ./jkc_photometry/tables'``
 #. | After the above is completed and to merge into a single table with only `source_id`, $B$ and $V$ photometry, run ``python gaiaxpy_phot_merge.py``
 
+To do ADQL query for Gaia DR3 stars, you can simply go to https://gea.esac.esa.int/archive/ and click `Search` and then `Advanced (ADQL)` and paste the query which should be inside Jupyter Notebooks in this repository.
+
 Scripts and Notebooks
 ----------------------
 
@@ -53,9 +55,11 @@ Here are the scripts and notebooks in this repository, you should follow the ord
 
 #. | `simbad_query_hip.py`_ - This script query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
 #. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
+#. | `Bright_Star_Catalog.ipynb` - This notebook generate a bright star catalog (0-6) for Stellarium.
 
 .. _simbad_query_hip.py: simbad_query_hip.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
+.. _Bright_Star_Catalog.ipynb: Bright_Star_Catalog.ipynb
 
 Acknowledgement
 ----------------
