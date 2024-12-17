@@ -55,10 +55,12 @@ Here are the scripts and notebooks in this repository, you should follow the ord
 
 #. | `simbad_query_hip.py`_ - This script query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
 #. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
+#. | `Gaia_Photometry.ipynb`_ - This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
 #. | `Bright_Star_Catalog.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
 
 .. _simbad_query_hip.py: simbad_query_hip.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
+.. _Gaia_Photometry.ipynb: Gaia_Photometry.ipynb
 .. _Bright_Star_Catalog.ipynb: Bright_Star_Catalog.ipynb
 
 Acknowledgement
