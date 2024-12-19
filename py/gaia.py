@@ -3,6 +3,9 @@ import astropy.units as u
 from astropy.time import Time
 from astropy.coordinates import SkyCoord
 
+# constant
+MAS2RAD = 4.8481368110953594e-9
+
 
 def jk_to_bprp(jmag, kmag):
     """

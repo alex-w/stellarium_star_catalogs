@@ -57,11 +57,15 @@ Here are the scripts and notebooks in this repository, you should follow the ord
 #. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
 #. | `Gaia_Photometry.ipynb`_ - This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
 #. | `Bright_Star_Catalog.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
+#. | `Dim_Star_catalog.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
+#. | `Dim_Star_catalog_2.ipynb`_ - This notebook generate a star catalog level 8 for Stellarium.
 
 .. _simbad_query_hip.py: simbad_query_hip.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
 .. _Gaia_Photometry.ipynb: Gaia_Photometry.ipynb
 .. _Bright_Star_Catalog.ipynb: Bright_Star_Catalog.ipynb
+.. _Dim_Star_catalog.ipynb: Dim_Star_catalog.ipynb
+.. _Dim_Star_catalog_2.ipynb: Dim_Star_catalog_2.ipynb
 
 Acknowledgement
 ----------------
