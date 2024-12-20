@@ -71,12 +71,15 @@ Acknowledgement
 ----------------
 
 **Infrastructure:**
+
 * | This works has made use of the SIMBAD database, operated at CDS, Strasbourg, France.
 
 **Software**
+
 * | This work made use of `Astropy`_, a community-developed core Python package and an ecosystem of tools and resources for astronomy.
 
 **Data**
+
 * | This work made use of data from the ESA Gaia mission.
 * | This work made use of data from the Hipparcos mission.
 
