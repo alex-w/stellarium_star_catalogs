@@ -2,6 +2,7 @@ import pathlib
 import struct
 import pandas as pd
 import numpy as np
+import tqdm
 
 
 def decode_star_hip(encoded):
@@ -92,7 +93,7 @@ def read_to_dataframe(file: pathlib.Path) -> pd.DataFrame:
     for i in header:
         df.attrs[i] = header[i]
 
-    for i in range(max_records):
+    for i in tqdm.tqdm(range(max_records), desc="Reading stars"):
         if header["Data Type"] == 0:
             star = struct.unpack("qiiiiiihhHHhHB", f.read(45))
             hip, componentid = decode_star_hip(f.read(3))
