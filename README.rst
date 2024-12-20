@@ -51,34 +51,34 @@ To do ADQL query for Gaia DR3 stars, you can simply go to https://gea.esac.esa.i
 Scripts and Notebooks
 ----------------------
 
-Here are the scripts and notebooks in this repository, you should follow the order to run the scripts and notebooks.
+Here are the scripts and notebooks in this repository, you should **follow the order** to run the scripts and notebooks.
 
 #. | `simbad_query_hip.py`_ - This script query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
 #. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
-#. | `Gaia_Photometry.ipynb`_ - This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
-#. | `Bright_Star_Catalog.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
-#. | `Dim_Star_catalog.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
-#. | `Dim_Star_catalog_2.ipynb`_ - This notebook generate a star catalog level 8 for Stellarium.
+#. | `Gaia_Photometry.ipynb`_ - (*Optional*) This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
+#. | `Star_Catalog_lv0_6.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
+#. | `Star_catalog_lv7.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
+#. | `Star_catalog_lv8.ipynb`_ - This notebook generate a star catalog level 8 for Stellarium.
 
 .. _simbad_query_hip.py: simbad_query_hip.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
 .. _Gaia_Photometry.ipynb: Gaia_Photometry.ipynb
-.. _Bright_Star_Catalog.ipynb: Bright_Star_Catalog.ipynb
-.. _Dim_Star_catalog.ipynb: Dim_Star_catalog.ipynb
-.. _Dim_Star_catalog_2.ipynb: Dim_Star_catalog_2.ipynb
+.. _Star_Catalog_lv0_6.ipynb: Star_Catalog_lv0_6.ipynb
+.. _Star_catalog_lv7.ipynb: Star_catalog_lv7.ipynb
+.. _Star_catalog_lv8.ipynb: Star_catalog_lv8.ipynb
 
 Acknowledgement
 ----------------
 
 **Infrastructure:**
-- | This works has made use of the SIMBAD database, operated at CDS, Strasbourg, France.
+* | This works has made use of the SIMBAD database, operated at CDS, Strasbourg, France.
 
 **Software**
-- | This work made use of `Astropy`_, a community-developed core Python package and an ecosystem of tools and resources for astronomy.
+* | This work made use of `Astropy`_, a community-developed core Python package and an ecosystem of tools and resources for astronomy.
 
 **Data**
-- | This work made use of data from the ESA Gaia mission.
-- | This work made use of data from the Hipparcos mission.
+* | This work made use of data from the ESA Gaia mission.
+* | This work made use of data from the Hipparcos mission.
 
 
 Author
