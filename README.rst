@@ -1,8 +1,6 @@
 Codes to generate star catalogs for Stellarium
 ======================================================
 
-**Work-in-progress**
-
 This repository contains codes to generate experimental star catalogs for the popular open source planetarium software `Stellarium`_.
 This experimental star catalogs are not meant to be used for astrophysical research, but rather aiming to provide a realistic 
 sky for the Stellarium planetarium software.
