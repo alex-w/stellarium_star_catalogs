@@ -30,7 +30,7 @@ Most of the data are obtained from SIMBAD for Hipparcos stars and Gaia Archive f
 
 .. code-block:: bash
 
-   python simbad_query_hip.py
+   python simbad_query_hipsaohdhr.py.py
 
 This will query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
 
@@ -51,14 +51,14 @@ Scripts and Notebooks
 
 Here are the scripts and notebooks in this repository, you should **follow the order** to run the scripts and notebooks.
 
-#. | `simbad_query_hip.py`_ - This script query SIMBAD for all possible Hipparcos IDs and save as a astropy Table.
+#. | `simbad_query_hipsaohdhr.py`_ - This script query SIMBAD for all possible Hipparcos/SAO/HD/HR IDs and save as a astropy table.
 #. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
 #. | `Gaia_Photometry.ipynb`_ - (*Optional*) This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
 #. | `Star_Catalog_lv0_6.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
 #. | `Star_catalog_lv7.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
 #. | `Star_catalog_lv8.ipynb`_ - This notebook generate a star catalog level 8 for Stellarium.
 
-.. _simbad_query_hip.py: simbad_query_hip.py
+.. _simbad_query_hipsaohdhr.py: simbad_query_hipsaohdhr.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
 .. _Gaia_Photometry.ipynb: Gaia_Photometry.ipynb
 .. _Star_Catalog_lv0_6.ipynb: Star_Catalog_lv0_6.ipynb
