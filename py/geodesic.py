@@ -1,6 +1,4 @@
 import numpy as np
-from joblib import Parallel, delayed
-import tqdm
 
 
 def radec2xyz(ra, dec):
